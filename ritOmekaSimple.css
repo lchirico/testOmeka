@@ -1,0 +1,33 @@
+body {
+    margin:0 auto;
+}
+h1, h2 {
+  text-align: center;
+}
+div {
+    padding:5px;
+}
+#texte {
+    text-align:center;
+}
+#image {
+    display:block;
+    max-width:100%;
+    margin:auto auto;
+    max-height:100%;
+}
+.cadre{
+    border: 2px solid green;
+}
+#choose{
+    display:none;
+}
+#imageContainer { 
+    display:flex;
+    //max-height:600px;
+    justify-content:center;
+    align-items:center;
+}
+#cache {
+    visibility:hidden;
+}
